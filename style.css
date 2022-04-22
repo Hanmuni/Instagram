@@ -215,3 +215,51 @@ html {
     font-size: 13px;
     padding: 8px;
 }
+
+@media(max-width: 1000px) {
+
+    .navigation-bar {
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+    }
+    .icons {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .users {
+        display: none;
+    }
+
+    .profiles {
+        display: none;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+
+    .author-information {
+        font-size: 16px;
+    }
+
+    .post-image img {
+        height: auto;
+    }
+
+    .post-likes {
+        padding-top: 0;
+    }
+
+    .post-comments {
+        font-size: 16px;
+    }
+
+    .post-comments {
+        font-size: 16px;
+    } 
+}
